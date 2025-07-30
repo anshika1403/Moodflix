@@ -27,7 +27,7 @@ bcrypt = Bcrypt(app)
 login_manager = LoginManager(app)
 login_manager.login_view = 'login'
 CORS(app)
-API_KEY = 'b4c3fd4bd79a7a30f43668f17e0d25bb'
+API_KEY = 'YOUR_API_KEY'
 
 def convert_to_python_types(data):
     """Recursively convert NumPy int64 to Python int."""
